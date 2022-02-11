@@ -1,6 +1,6 @@
 name: Bump release version
 on:
-  push:
+  pull_request:
     branches: release
 jobs:
   bump-version:
