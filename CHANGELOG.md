@@ -1,3 +1,11 @@
+## v0.2.2 (2022-02-11)
+
+
+- feat: Feature/tucker (#10)
+- * add tucker
+
+* fix typo
+
 ## v0.2.1 (2022-02-11)
 
 
