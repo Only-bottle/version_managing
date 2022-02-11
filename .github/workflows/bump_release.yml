@@ -23,6 +23,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: "body.md"
+          generate_release_notes: true
           tag_name: v${{ env.REVISION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
