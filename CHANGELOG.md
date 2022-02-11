@@ -1,3 +1,23 @@
+## v0.6.1 (2022-02-11)
+
+
+- feat: Feature/cp (#17)
+- * add cp decomposition
+
+* fix cp
+- Release (#18)
+- * bump: version 0.1.5 → 0.2.0
+
+* bump: version 0.2.2 → 0.3.0
+
+* bump: version 0.3.1 → 0.4.0
+
+* bump: version 0.4.1 → 0.5.0
+
+* bump: version 0.5.1 → 0.6.0
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+
 ## v0.6.0 (2022-02-11)
 
 
