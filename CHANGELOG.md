@@ -1,3 +1,8 @@
+## v0.1.3 (2022-02-11)
+
+
+- fix: modify release version dump (#2)
+
 ## v0.1.2 (2022-02-10)
 
 
