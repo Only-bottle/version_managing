@@ -1,3 +1,18 @@
+## v0.2.2 (2022-02-11)
+
+
+- feat: Feature/tucker (#10)
+- * add tucker
+
+* fix typo
+
+## v0.2.1 (2022-02-11)
+
+
+- feat: add main.py (#9)
+- bump: version 0.1.5 → 0.2.0 (#8)
+- Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+
 ## v0.2.0 (2022-02-11)
 
 
