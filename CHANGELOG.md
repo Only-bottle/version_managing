@@ -1,3 +1,18 @@
+## v0.5.1 (2022-02-11)
+
+
+- fix: remove body_path (#16)
+- merge: Release into develop (#15)
+- * bump: version 0.1.5 → 0.2.0
+
+* bump: version 0.2.2 → 0.3.0
+
+* bump: version 0.3.1 → 0.4.0
+
+* bump: version 0.4.1 → 0.5.0
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+
 ## v0.5.0 (2022-02-11)
 
 
