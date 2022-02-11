@@ -1,3 +1,8 @@
+## v0.2.0 (2022-02-11)
+
+
+- release: Merge branch 'develop' into release
+
 ## v0.1.5 (2022-02-11)
 
 
