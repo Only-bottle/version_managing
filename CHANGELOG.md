@@ -1,3 +1,14 @@
+## v0.3.1 (2022-02-11)
+
+
+- fix: fix integration test (#12)
+- Release (#11)
+- * bump: version 0.1.5 → 0.2.0
+
+* bump: version 0.2.2 → 0.3.0
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+
 ## v0.3.0 (2022-02-11)
 
 
