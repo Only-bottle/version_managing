@@ -18,7 +18,7 @@ jobs:
         with:
           branch: release
           github_token: ${{ secrets.ACTION_TOKEN }}
-          changelog_increment_filename: body.md
+          changelog: ''
       - name: Release
         uses: softprops/action-gh-release@v1
         with:

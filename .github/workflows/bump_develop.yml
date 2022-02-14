@@ -18,11 +18,4 @@ jobs:
         with:
           branch: develop
           github_token: ${{ secrets.ACTION_TOKEN }}
-          changelog_increment_filename: body.md
-      # - name: Release
-      #   uses: softprops/action-gh-release@v1
-      #   with:
-      #     body_path: "body.md"
-      #     tag_name: v${{ env.REVISION }}
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          changelog: ''
