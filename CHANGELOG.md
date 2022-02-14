@@ -1,3 +1,14 @@
+## v0.8.0 (2022-02-14)
+
+
+- release: Merge branch 'develop' of https://github.com/Only-bottle/version_managing into release
+
+## v0.6.3 (2022-02-14)
+
+
+- bump: version 0.6.2 → 0.6.3
+- fix: fix integration test main.py (#20)
+
 ## v0.7.0 (2022-02-11)
 
 
