@@ -16,7 +16,7 @@ jobs:
       - name: Create bump and changelog
         uses: commitizen-tools/commitizen-action@master
         with:
-          branch: release
+          branch: develop
           github_token: ${{ secrets.ACTION_TOKEN }}
           changelog: ''
       - name: "Build Changelog"
