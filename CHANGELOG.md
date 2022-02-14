@@ -1,3 +1,8 @@
+## v0.6.3 (2022-02-14)
+
+
+- fix: fix integration test main.py (#20)
+
 ## v0.6.2 (2022-02-11)
 
 
