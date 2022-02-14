@@ -1,3 +1,19 @@
+## v0.8.0 (2022-02-14)
+
+
+- release: Merge branch 'develop' of https://github.com/Only-bottle/version_managing into release
+
+## v0.6.3 (2022-02-14)
+
+
+- bump: version 0.6.2 → 0.6.3
+- fix: fix integration test main.py (#20)
+
+## v0.7.0 (2022-02-11)
+
+
+- release: Merge branch 'develop' into release
+
 ## v0.6.3 (2022-02-14)
 
 
@@ -28,35 +44,6 @@
 
 Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
 
-## v0.6.0 (2022-02-11)
-
-
-- release: Merge branch 'develop' of https://github.com/Only-bottle/version_managing into release
-
-## v0.5.0 (2022-02-11)
-
-
-- bump: version 0.4.1 → 0.5.0
-- release: Merge branch 'develop' into release
-
-## v0.4.0 (2022-02-11)
-
-
-- bump: version 0.3.1 → 0.4.0
-- release: Merge branch 'develop' into release
-
-## v0.3.0 (2022-02-11)
-
-
-- bump: version 0.2.2 → 0.3.0
-- release: Merge branch 'develop' of https://github.com/Only-bottle/version_managing into release
-
-## v0.2.0 (2022-02-11)
-
-
-- bump: version 0.1.5 → 0.2.0
-- release: Merge branch 'develop' into release
-
 ## v0.5.1 (2022-02-11)
 
 
@@ -77,24 +64,6 @@ Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.co
 
 - release: Merge branch 'develop' into release
 
-## v0.4.0 (2022-02-11)
-
-
-- bump: version 0.3.1 → 0.4.0
-- release: Merge branch 'develop' into release
-
-## v0.3.0 (2022-02-11)
-
-
-- bump: version 0.2.2 → 0.3.0
-- release: Merge branch 'develop' of https://github.com/Only-bottle/version_managing into release
-
-## v0.2.0 (2022-02-11)
-
-
-- bump: version 0.1.5 → 0.2.0
-- release: Merge branch 'develop' into release
-
 ## v0.4.1 (2022-02-11)
 
 
@@ -113,7 +82,6 @@ Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.co
 
 - release: Merge branch 'develop' into release
 
-
 ## v0.3.1 (2022-02-11)
 
 
@@ -129,7 +97,6 @@ Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.co
 
 
 - release: Merge branch 'develop' of https://github.com/Only-bottle/version_managing into release
-
 
 ## v0.2.2 (2022-02-11)
 
