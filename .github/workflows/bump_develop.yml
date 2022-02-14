@@ -1,7 +1,9 @@
 name: Bump develop version
 on:
   push:
-    branches: develop
+    branches: 
+      - 'develop'
+      - '!release'
 jobs:
   bump-version:
     if: "!startsWith(github.event.head_commit.message, 'bump:')"
