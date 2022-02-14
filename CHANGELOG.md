@@ -1,3 +1,24 @@
+## v0.8.1 (2022-02-14)
+
+
+- fix: bump release workflows
+- Release (#21)
+- * bump: version 0.1.5 → 0.2.0
+
+* bump: version 0.2.2 → 0.3.0
+
+* bump: version 0.3.1 → 0.4.0
+
+* bump: version 0.4.1 → 0.5.0
+
+* bump: version 0.5.1 → 0.6.0
+
+* bump: version 0.6.2 → 0.7.0
+
+* bump: version 0.7.0 → 0.8.0
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+
 ## v0.8.0 (2022-02-14)
 
 
