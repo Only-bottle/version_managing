@@ -1,7 +1,7 @@
 {
   "commitizen": {
     "name": "cz_customize",
-    "version": "0.12.0",
+    "version": "0.12.2",
     "tag_format": "v$major.$minor.$patch",
     "version_files": [
       ".cz.json:version"
