@@ -71,9 +71,10 @@ s = Student('Swaroop', 25, 75)
 # prints a blank line
 print()
 members = [t, s]
+songs = [t, s]
 for member in members:
     # Works for both Teachers and Students
     member.tell()
-for member in members:
+for song in songs:
     # Works for both Teachers and Students
-    member.tell()
+    song.tell()
