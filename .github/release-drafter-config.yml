@@ -1,6 +1,6 @@
-name-template: 'v$NEXT_MINOR_VERSION 🎉'
+name-template: 'v$NEXT_MINOR_VERSION'
 tag-template: 'v$NEXT_MINOR_VERSION'
-version-template: 'v$MAJOR.$MINOR.$PATCH'
+version-template: '$MAJOR.$MINOR.$PATCH'
 categories:
   - title: '🚀 Features'
     labels:
@@ -13,7 +13,7 @@ categories:
       - 'bug'
   - title: '📘 Documentation'
     label: 'docs'
-  - title: 'Other changes'
+  - title: '👻 Other changes'
 
 version-resolver:
   major:
@@ -28,7 +28,7 @@ version-resolver:
       - 'bug'
       - 'fix'
 template: |
-  ## 👻 Uncategorized
+  # What's Changed
   
   $CHANGES
     
