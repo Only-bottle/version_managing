@@ -20,26 +20,11 @@ jobs:
           branch: develop
           github_token: ${{ secrets.ACTION_TOKEN }}
           changelog: ''
-
-      - name: "Build Changelog"
-        id: github_release
-        uses: mikepenz/release-changelog-builder-action@v2
-        with:
-          configuration: "configs/configuration_repo.json"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Create Release
-        uses: softprops/action-gh-release@6034af24fba4e5a8e975aaa6056554efe4c794d0
+      - name: Release
+        uses: softprops/action-gh-release@v1
         with:
-          body: ${{steps.github_release.outputs.changelog}}
+          generate_release_notes: true
+          tag_name: v${{ env.REVISION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-#       - name: Release
-#         uses: softprops/action-gh-release@v1
-#         with:
-#           generate_release_notes: true
-#           tag_name: v${{ env.REVISION }}
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
