@@ -4,6 +4,7 @@ on:
     branches:
       - releases
       - develop
+      - main
 jobs:
   update_release_draft:
     runs-on: ubuntu-latest
