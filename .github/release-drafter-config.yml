@@ -4,15 +4,19 @@ version-template: '$MAJOR.$MINOR.$PATCH'
 categories:
   - title: '🚀 Features'
     labels:
-      - 'feature'
-      - 'enhancement'
+      - 'Enhancement'
   - title: '🐛 Bug Fixes'
     labels:
-      - 'fix'
-      - 'bugfix'
-      - 'bug'
+      - 'Hotfix'
+      - 'Bug'
+  - title: '✂️ Pruning'
+    label: 'Pruning'
+  - title: '🎲 FD'
+    label: 'FD'
+  - title: '⌚ Profiling'
+    label: 'Profiling'
   - title: '📘 Documentation'
-    label: 'docs'
+    label: 'Docs'
   - title: '👻 Other changes'
 
 exclude-labels:
