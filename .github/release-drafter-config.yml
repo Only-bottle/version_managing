@@ -1,0 +1,42 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+version-template: '$MAJOR.$MINOR.$PATCH'
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'Enhancement'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'Hotfix'
+      - 'Bug'
+  - title: '✂️ Pruning'
+    label: 'Pruning'
+  - title: '🎲 FD'
+    label: 'FD'
+  - title: '⌚ Profiling'
+    label: 'Profiling'
+  - title: '📘 Documentation'
+    label: 'Docs'
+  - title: '👻 Other changes'
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+
+exclude-labels:
+  - 'skip'
+
+template: |
+  # What's Changed
+  
+  $CHANGES
+    
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
