@@ -22,15 +22,14 @@ categories:
 version-resolver:
   major:
     labels:
-      - 'breaking'
+      - 'major'
   minor:
     labels:
-      - 'release'
+      - 'minor'
   patch:
     labels:
-      - 'Enhancement'
-      - 'Hotfix'
-      - 'Bug'
+      - 'patch'
+  default: patch
 
 exclude-labels:
   - 'skip'
