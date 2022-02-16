@@ -1,5 +1,5 @@
-name-template: 'v$NEXT_MINOR_VERSION'
-tag-template: 'v$NEXT_MINOR_VERSION'
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 version-template: '$MAJOR.$MINOR.$PATCH'
 categories:
   - title: '🚀 Features'
@@ -19,8 +19,21 @@ categories:
     label: 'Docs'
   - title: '👻 Other changes'
 
+version-resolver:
+  major:
+    labels:
+      - 'breaking'
+  minor:
+    labels:
+      - 'release'
+  patch:
+    labels:
+      - 'Enhancement'
+      - 'Hotfix'
+      - 'Bug'
+
 exclude-labels:
-  - 'release'
+  - 'skip'
 
 template: |
   # What's Changed
