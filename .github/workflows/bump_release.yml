@@ -20,3 +20,11 @@ jobs:
           branch: develop
           github_token: ${{ secrets.ACTION_TOKEN }}
           changelog: ''
+      
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          tag_name: v${{ env.REVISION }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
