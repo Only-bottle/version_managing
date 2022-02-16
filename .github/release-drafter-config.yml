@@ -15,18 +15,9 @@ categories:
     label: 'docs'
   - title: '👻 Other changes'
 
-version-resolver:
-  major:
-    labels:
-      - 'breaking'
-  minor:
-    labels:
-      - 'release'
-  patch:
-    labels:
-      - 'feature'
-      - 'bug'
-      - 'fix'
+exclude-labels:
+  - 'release'
+
 template: |
   # What's Changed
   
