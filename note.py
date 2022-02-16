@@ -74,3 +74,6 @@ members = [t, s]
 for member in members:
     # Works for both Teachers and Students
     member.tell()
+for member in members:
+    # Works for both Teachers and Students
+    member.tell()
