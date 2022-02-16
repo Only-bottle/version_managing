@@ -81,3 +81,5 @@ for song in songs:
 print('hi')
 
 print('love you')
+
+print('star star')
