@@ -13,12 +13,14 @@ jobs:
         with:
           token: "${{ secrets.ACTION_TOKEN }}"
           fetch-depth: 0
+      
       - name: Create bump and changelog
         uses: commitizen-tools/commitizen-action@master
         with:
-          branch: releases
+          branch: develop
           github_token: ${{ secrets.ACTION_TOKEN }}
           changelog: ''
+
       - name: "Build Changelog"
         id: github_release
         uses: mikepenz/release-changelog-builder-action@v2
@@ -26,13 +28,14 @@ jobs:
           configuration: "configs/configuration_repo.json"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@6034af24fba4e5a8e975aaa6056554efe4c794d0
         with:
-          tag_name: v${{ env.REVISION }}
           body: ${{steps.github_release.outputs.changelog}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 #       - name: Release
 #         uses: softprops/action-gh-release@v1
 #         with:
