@@ -82,4 +82,4 @@ print('hi')
 
 print('love you')
 
-print('star')
+print('star star')
