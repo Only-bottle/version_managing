@@ -1,4 +1,4 @@
-name: 'CI'
+name: 'Create Release Notes'
 on:
   push:
     tags:
