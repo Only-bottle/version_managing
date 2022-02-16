@@ -72,10 +72,3 @@ s = Student('Swaroop', 25, 75)
 print()
 members = [t, s]
 songs = [t, s]
-for member in members:
-    # Works for both Teachers and Students
-    member.tell()
-for song in songs:
-    # Works for both Teachers and Students
-    song.tell()
-print('hi')
