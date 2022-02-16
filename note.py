@@ -79,3 +79,5 @@ for song in songs:
     # Works for both Teachers and Students
     song.tell()
 print('hi')
+
+print('love')
