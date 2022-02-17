@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - releases
-      - develop
       - main
 jobs:
   update_release_draft:
