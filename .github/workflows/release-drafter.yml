@@ -2,6 +2,7 @@ name: Release Drafter
 on:
   push:
     branches:
+      - develop
       - releases
       - main
 jobs:
